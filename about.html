@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ /* about style */
+.aboutsc {
+    /* border: red solid; */
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+}
+
+.firstcol {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+
+.aboutimg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abouttext {
+    width: 50%;
+    /* border: orange solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    align-items:flex-start;
+}
+#abt{
+    /* border: rebeccapurple solid; */
+    width: 50%;
+    line-height: 1.3rem;
+}
+
+.abimgcon {
+    background: rgb(85, 85, 85);
+    width: 19rem;
+    height: 19rem;
+    border-radius: 50%;
+    transform: translateX(6rem);
+    overflow: hidden;
+}
+
+.abimgcon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#huigu{
+    font-size: 2rem;
+}
+/* button */
+.button-62 {
+  background:  #FF9A5A;
+  padding-top: 1rem;
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0.4rem 1.8rem;
+}
+
+/* secend sec */
+.container_about{
+    background: rgb(229, 120, 3);
+    width: 22rem;
+    height: 25rem;
+    padding: 1.6rem;
+    color: white;
+    border-radius: 1rem;
+}
+.container_about:nth-child(2){
+    background: rgb(72, 72, 72);
+}
+.secncol{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+#nomui{
+    /* border: red solid; */
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+}
+#about{
+    background: #fdf6e4;
+    /* height: 100% !important; */
+}
+
+</style>
+<body>
+    
+      <!-- about section -->
+  <section id="about">
+    <!-- root -->
+    <div class="aboutsc">
+      <!--  -->
+      <div class="firstcol">
+        <div class="aboutimg">
+          <div class="abimgcon">
+            <img src="./src/chef-01.jpg" alt="">
+          </div>
+        </div>
+        <div class="abouttext">
+          <h1 id="huigu">About us!</h1>
+          <p id="abt">Welcome to Loaf Bakery Service, where we seamlessly blend technology with the art of baking.
+             Our platform is designed to streamline every aspect of your bakery business, from order management to inventory tracking. </p>
+          <button class="button-62">About Us!</button>
+        </div>
+      </div>
+      <!--  -->
+      <div class="secncol">
+
+        <div class="container_about">
+          <h3 id="nomui">01</h3>
+          <p>We empower bakers and entrepreneurs to focus on crafting delicious creations while our system handles the complexities of running a successful bakery.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas totam velit, labore illo aperiam inventore, ad enim error perspiciatis repellendus minus harum nulla quam, veniam et consequuntur esse earum cupiditate.
+          </p>
+        </div>
+
+        <div class="container_about">
+          <h3 id="nomui">02</h3>
+          <p>We provide a comprehensive solution tailored to the unique needs of bakeries.
+             Our user-friendly platform empowers bakers to focus on their craft while our tools handle the administrative tasks.</p>
+        </div>
+
+        <div class="container_about">
+          <h3 id="nomui">03</h3>
+          <p>Our service is tailored to enhance efficiency, improve customer experience, and bring a delightful touch of automation to your daily operations.
+             Join us on this journey to elevate your bakery business to new heights of success.</p>
+        </div>
+      </div>
+      <!--  -->
+    </div>
+  </section>
+
+
+    <script></script>
+</body>
+</html>
+.
