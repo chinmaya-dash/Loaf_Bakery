@@ -648,21 +648,26 @@ text-align: center;
 
 
 /* testimonial */
-
+.testimonialHeader{
+text-align: center;
+    
+  }
 .testimonialHeader h1 {
     font-size: 35px;
     padding-bottom: 20px;
     border-bottom: 2px solid #c37a3e;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     margin: 0 auto; 
+    width: fit-content;
     
   }
   .testimonialHeader p {
     font-size: 18px;
     color: rgba(0,0,0,0.6);
-    padding: 25px 0;
+    padding: 2px 0;
   }
 
 .revcontainer {
