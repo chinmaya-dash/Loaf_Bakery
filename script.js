@@ -323,3 +323,19 @@ totalPriceElement.innerHTML = `<i class="uil uil-rupee-sign"></i> 0`;
         popup.classList.remove("open-popup");
     }
     
+
+    // TESTIMONIAL SLIDER
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        grabCursor: true,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      
